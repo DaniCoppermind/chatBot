@@ -8,6 +8,7 @@
 
 body {
   background-color: #081f37;
+  font-family: 'Orbitron', sans-serif;
 }
 
 /* Header */
@@ -167,8 +168,19 @@ footer {
     flex-direction: column;
   }
 
+  .jarvis_chat {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .question_grid {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
+  }
+
+  .question_grid > button {
+    padding: 6px 7px 6px 8px;
+    height: min-content;
+    width: 180px;
   }
 
   .jarvis_questions > p {
