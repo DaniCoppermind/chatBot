@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/jarvis.png"
+      type="image/x-icon"
+    />
+    <title>Jarvis Chat</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jarvis</h1>
+    </header>
+
+    <main class="container">
+      <section class="jarvis_chat">
+        <img src="assets/images/jarvis.png" alt="Jarvis" />
+        <div class="jarvis_chat_content">
+          <h2>Jarvis • 10:59 PM</h2>
+          <span id="answer"> How can i help you? </span>
+        </div>
+      </section>
+
+      <section class="jarvis_battery">
+        <div class="jarvis_questions">
+          <p>💡Suggestions</p>
+          <div class="question_grid">
+            <button>Who are you?</button>
+            <button>I need help, Jarvis</button>
+            <button>What can you do, Jarvis?</button>
+            <button>What time is it?</button>
+          </div>
+          <button id="charger">Recharge Battery</button>
+        </div>
+        <div class="battery_container">
+          <p>⚡Jarvis Suit Energy</p>
+          <div class="battery_nodes">
+            <div class="battery"></div>
+            <div class="battery"></div>
+            <div class="battery"></div>
+            <div class="battery"></div>
+            <div class="battery"></div>
+            <span id="totalBattery">5/5</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span><strong>&copy; 2024 Daniel García</strong></span>
+    </footer>
+    <script src="code.js"></script>
+  </body>
+</html>
